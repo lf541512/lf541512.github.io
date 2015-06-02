@@ -1,0 +1,10 @@
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.clear, .clr {
+    clear: both;
+    overflow: hidden;
+}

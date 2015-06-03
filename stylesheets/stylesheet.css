@@ -5,7 +5,7 @@ body{
 a{
     text-decoration: none;
 }
-.content-wrap,header{
+.content-wrap,.header{
     width: 800px;
     margin: 0 auto;
 }
@@ -18,12 +18,12 @@ a{
     font-weight: bold;
     padding-top: 30px;
 }
-header{
+.header{
     position : relative;
     color: #ffffff;
     padding-bottom: 20px;
 }
-header a{
+.header a{
     color: #ffffff;
     position: absolute;
     top: 0;
@@ -32,10 +32,9 @@ header a{
     padding: 10px 50px 10px 10px;
     /*height: 30px;*/
 }
-header h2{
+.header h2{
     padding-top: 20px;
 }
-
 .component h1{
     border-bottom: 1px dashed #aaa;
     height: 38px;
